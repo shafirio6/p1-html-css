@@ -35,6 +35,18 @@
     text-decoration: none;
   }
   nav img {
-    width: 5vw;
+    width: 10vw;
   }
-  
+  .ouderavond{
+    background-image: url(./img/ouderavond.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 320px;
+    color: white;
+  }
+  .designer{
+    color: white;
+  }
+  a{
+    color: aqua;
+  }
