@@ -37,16 +37,21 @@
   nav img {
     width: 10vw;
   }
-  .ouderavond{
+  .parent{
     background-image: url(./img/ouderavond.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 200px;
     padding-bottom: 320px;
     color: white;
-  }
+    width: 100vw;
+    height:50vh;
+}
   .designer{
     color: white;
   }
   a{
     color: aqua;
   }
+

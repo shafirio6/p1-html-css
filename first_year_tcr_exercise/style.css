@@ -47,7 +47,13 @@ nav img {
 .hero {
   background-image: url(./img/background.jpeg);
   background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 350px;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 80vh;
+  color: white;
+}
+.background{
+  background-color: black;
   color: white;
 }
