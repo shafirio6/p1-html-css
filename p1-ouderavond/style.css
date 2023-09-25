@@ -37,6 +37,16 @@
   nav img {
     width: 10vw;
   }
+  h1{
+    font-size: 33px;
+  }
+  h2{
+    font-size: 27px;
+    
+  }
+  p{
+    font-size: 15px;
+  }
   .parent{
     background-image: url(./img/ouderavond.jpg);
     background-size: cover;
@@ -54,4 +64,21 @@
   a{
     color: aqua;
   }
+  table{
+    width: 400px;
+    /*border-spacing: 40px;*/
+    }
+    
+    th{
+        text-align: left;
+    }
+    table, th, td{
+        border: 1px solid #000;
+        border-collapse: collapse;
+    }
+    th, td{
+        border: 1px solid #000;
+        border-collapse: collapse;
+        padding: 10px;}
 
+  

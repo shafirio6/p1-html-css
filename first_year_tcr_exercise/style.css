@@ -10,6 +10,8 @@ html {
 
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
+  position: relative;
 }
 
 nav {
@@ -22,6 +24,8 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: relative;
+  top: 0;
 }
 
 nav ul {
@@ -56,4 +60,36 @@ nav img {
 .background{
   background-color: black;
   color: white;
+  padding-bottom: 130px;
 }
+h1{
+  text-align: center;
+}
+footer{
+  bottom: 0;
+}
+img{
+  float: left;
+  margin: 20px;
+}
+section{
+  margin: 10px;
+}
+.mouse{
+  float: right;
+}
+span{
+  color: #00a8c7;
+}
+span1{
+  color: orange;
+}
+span2{
+  color: yellow;
+}
+span3{
+  color: purple;
+}
+
+
+
