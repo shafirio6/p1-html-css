@@ -36,12 +36,16 @@ nav ul {
 
 nav li {
   font-size: 2.5rem;
-  padding: 0 4rem 0 4rem;
+  padding: 0 4rem 0 4rem; 
+  float: left;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  display: inline-block;
 }
 
 nav img {
@@ -90,6 +94,21 @@ span2{
 span3{
   color: purple;
 }
-
-
+.dropdown-content{
+display: none;
+position: absolute;
+background-color: white;
+min-width: 20vw;
+box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0,2);
+z-index: 1;
+}
+.dropdown-content a{
+  color: black;
+  padding: 0.8rem 1rem;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
 
