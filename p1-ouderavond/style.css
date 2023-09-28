@@ -39,6 +39,7 @@
   }
   h1{
     font-size: 33px;
+   text-align: center;
   }
   h2{
     font-size: 27px;
@@ -46,6 +47,10 @@
   }
   p{
     font-size: 15px;
+    margin: 5px;
+  }
+  .ouderavond{
+    color: black;
   }
   .parent{
     background-image: url(./img/ouderavond.jpg);
@@ -56,7 +61,7 @@
     padding-bottom: 320px;
     color: white;
     width: 100vw;
-    height:50vh;
+    height: 50vh;
 }
   .designer{
     color: white;
@@ -79,6 +84,5 @@
     th, td{
         border: 1px solid #000;
         border-collapse: collapse;
-        padding: 10px;}
-
-  
+        padding:10px
+    }

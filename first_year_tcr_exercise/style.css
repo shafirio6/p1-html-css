@@ -3,17 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
 }
-
 body {
   font-family: "Goldman", cursive;
   min-height: 100vh;
   position: relative;
 }
-
 nav {
   display: flex;
   width: 100%;
@@ -27,35 +24,29 @@ nav {
   position: relative;
   top: 0;
 }
-
 nav ul {
   display: flex;
   align-items: center;
   list-style-type: none;
 }
-
 nav li {
   font-size: 2.5rem;
   padding: 0 4rem 0 4rem; 
   float: left;
 }
-
 nav a {
   color: white;
   text-decoration: none;
   text-align: center;
-  padding: 0.8rem 1rem;
   display: inline-block;
 }
-
 nav img {
   width: 5vw;
 }
-
 .hero {
   background-image: url(./img/background.jpeg);
   background-size: cover;
-  background-position-x: center;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100vw;
   height: 80vh;
@@ -64,7 +55,7 @@ nav img {
 .background{
   background-color: black;
   color: white;
-  padding-bottom: 130px;
+  padding-bottom: 180px;
 }
 h1{
   text-align: center;
