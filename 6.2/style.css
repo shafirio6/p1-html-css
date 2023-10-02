@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-container{
+    background-color: grey;
+    display: flex;
+    gap: 3rem;
+    justify-content:center; 
+    width: 1200px;
+    flex-direction: row-reverse;
+}
+.item{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+}
+.item2{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+}
+.item3{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+}
+.item4{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    color: white;
+    display: flex;
+}

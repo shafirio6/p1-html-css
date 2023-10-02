@@ -55,13 +55,19 @@ nav img {
 .background{
   background-color: black;
   color: white;
-  padding-bottom: 180px;
+  padding: 210px;
 }
 h1{
   text-align: center;
 }
 footer{
   bottom: 0;
+  background-color: #00a8c7;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  position: absolute;
+  color: white;
 }
 img{
   float: left;

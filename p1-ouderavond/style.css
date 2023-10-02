@@ -49,14 +49,12 @@
     font-size: 15px;
     margin: 5px;
   }
-  .ouderavond{
-    color: black;
-  }
+ 
   .parent{
-    background-image: url(./img/ouderavond.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    background-color: green;
     padding-top: 200px;
     padding-bottom: 320px;
     color: white;
@@ -86,3 +84,13 @@
         border-collapse: collapse;
         padding:10px
     }
+footer{
+ background-color: #00530f;
+ bottom: 1;
+ width: 100vw;
+height: 10vh;
+  text-align: center;
+  position: absolute;
+  color: white;
+  padding: 50px;
+}
