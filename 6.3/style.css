@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Goldman", cursive;
+    line-height: 1.5;
+    background-color: lightskyblue;
+}
+nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 20vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: black;
+    justify-content:center;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+}
+nav a {
+    color: blue;
+    text-decoration: none;
+  }
+  .dc{
+    padding-right: 200px;
+  }
+.pc{
+    padding-left: 200px;
+}

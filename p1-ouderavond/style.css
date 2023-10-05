@@ -31,7 +31,7 @@
     padding: 0 4rem 0 4rem;
   }
   nav a {
-    color: white;
+    color: black;
     text-decoration: none;
   }
   nav img {
@@ -43,21 +43,25 @@
   }
   h2{
     font-size: 27px;
-    
+  }
+  h3{
+    font-size: 20px;
+    font-weight: bold;
+    color:darkslategrey;
   }
   p{
     font-size: 15px;
     margin: 5px;
+    color: white;
   }
- 
-  .parent{
+ .parent{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-color: green;
     padding-top: 200px;
     padding-bottom: 320px;
-    color: white;
+    color: black;
     width: 100vw;
     height: 50vh;
 }
@@ -65,19 +69,19 @@
     color: white;
   }
   a{
-    color: aqua;
+    color: rgb(255, 4, 0);
   }
   table{
     width: 400px;
-    /*border-spacing: 40px;*/
+     border-spacing: 40px;
     }
-    
     th{
         text-align: left;
     }
     table, th, td{
         border: 1px solid #000;
         border-collapse: collapse;
+        color: white;
     }
     th, td{
         border: 1px solid #000;
@@ -93,4 +97,12 @@ height: 10vh;
   position: absolute;
   color: white;
   padding: 50px;
+}
+main{ background-color: green;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
