@@ -70,7 +70,7 @@ footer{
   color: white;
 }
 img{
-  float: left;
+ float: left;
   margin: 20px;
 }
 section{
@@ -92,8 +92,8 @@ span3{
   color: purple;
 }
 .dropdown-content{
-display: none;
-position: absolute;
+  position: absolute;
+  display: none;
 background-color: white;
 min-width: 20vw;
 box-shadow: 0rem 0.5rem 1rem 0rem rgba(0,0,0,0,2);
@@ -106,6 +106,6 @@ z-index: 1;
   text-align: left;
 }
 .dropdown:hover .dropdown-content{
-  display: block;
+  display: block; 
 }
 
