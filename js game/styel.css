@@ -1,0 +1,108 @@
+body {
+    background-color: #223f22;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    margin: -600px;
+    top: 10px;
+    position: relative;
+}
+
+.game-controls .butt {
+    background-color: #4CAF50; 
+    color: #fff; 
+    padding: 20px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100000px;
+    font-size: smaller;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    border-radius: 50px;
+    background: #223f22; 
+    box-shadow: 5px 5px 10px #1b321b,
+                -5px -5px 10px#223f22;
+    margin-right: 10px;
+}
+
+.butt:hover {
+    background-color: #45a049; 
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.butt:active {
+    background-color: #3e8e41; 
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.table {
+    position: relative;
+}
+
+svg path:hover {
+    fill: chartreuse; 
+}
+
+.paddle {
+    position: absolute;
+    width: 10px;
+    height: 100px;
+    background-color: #4CAF50;
+}
+
+#leftPaddle {
+    left: 18px;
+}
+
+#rightPaddle {
+    right: 18px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #ffffff; 
+    animation: rotateBall 3s linear infinite;
+    
+}
+
+@keyframes rotateBall {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.score-container {
+    display: flex;
+    text-align: center;
+    color: #4CAF50; 
+    font-size: 18vh;
+}
+
+#dash {
+    position: absolute;
+    top: -200px;
+    left: 43%;
+}
+
+#leftScoreContainer {
+    position: absolute;
+    top: -200px;
+    left: 25%;
+}
+
+#rightScoreContainer {
+    position: absolute;
+    top: -200px;
+    right: 30%;
+}

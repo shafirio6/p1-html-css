@@ -1,0 +1,22 @@
+<svg width="513" height="99" viewBox="0 0 513 99" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_bif_2_10)">
+<rect x="4" y="4" width="505" height="91" fill="#42408A" fill-opacity="0.33"/>
+<rect x="4.5" y="4.5" width="504" height="90" stroke="black"/>
+</g>
+<defs>
+<filter id="filter0_bif_2_10" x="0" y="0" width="517" height="99" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_2_10"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_2_10" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="6" operator="erode" in="SourceAlpha" result="effect2_innerShadow_2_10"/>
+<feOffset dx="8"/>
+<feGaussianBlur stdDeviation="25"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect2_innerShadow_2_10"/>
+<feGaussianBlur stdDeviation="2" result="effect3_foregroundBlur_2_10"/>
+</filter>
+</defs>
+</svg>

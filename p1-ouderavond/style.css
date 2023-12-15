@@ -43,6 +43,7 @@
   }
   h2{
     font-size: 27px;
+    margin-top: 1rem;
   }
   h3{
     font-size: 23px;
@@ -67,9 +68,6 @@
   }
   .designer{
     color: white;
-  }
-  a{
-    color: rgb(255, 4, 0);
   }
   table{
     width: 400px;

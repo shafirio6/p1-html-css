@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2D2A41;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 100vh;
+    width: 100vw;
+    background-image: url(./img/tuf\ gaming.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+nav {
+    display: flex;
+    min-width: 100vw;
+    padding: 2rem;
+    min-height: 11vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1;
+    background: #8D8D8D;
+    justify-content: space-between;
+    
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #8D8D8D;
+    margin-top: 89vh;
+    position:absolute;
+    bottom: 1px;
+    width: 100vw;
+    height: 9vh;
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    background-color: #2D2A41;
+    min-width: 20vw;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0, 2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 0.8rem 1rem;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+img {
+    width: 15vw;
+    
+}
+p{
+    font-size: 16px;
+    color: #ECD98D;
+    margin-left: 10px;
+}
