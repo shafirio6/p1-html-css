@@ -17,22 +17,19 @@ body {
     overflow: hidden;
     max-height: 100vh;
     width: 100vw;
-    background-image: url(./img/tuf\ gaming.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
+
 nav {
     display: flex;
     min-width: 100vw;
     padding: 2rem;
-    min-height: 11vh;
+    min-height: 10vh;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 1;
     background: #8D8D8D;
     justify-content: space-between;
-    
+
 }
 
 nav ul {
@@ -51,25 +48,50 @@ nav a {
     text-decoration: none;
 }
 
+nav img {
+    width: 15vw;
+}
+
 footer {
     background-color: #8D8D8D;
-    margin-top: 89vh;
-    position:absolute;
-    bottom: 1px;
+    position: absolute;
+    bottom: 0;
     width: 100vw;
-    height: 9vh;
+    height: 10vh;
     text-align: center;
-    color: black;
-    padding: 50px;
+    color: white;
+    padding: 30px;
 }
+
 
 .dropdown-content {
     position: absolute;
     display: none;
-    background-color: #2D2A41;
-    min-width: 20vw;
+    background-color: blue;
+    min-width: 10vw;
     box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0, 2);
     z-index: 1;
+}
+
+nav a:hover {
+    color: #80ccff;
+    /* Change to your desired hover color */
+}
+
+nav .dropdown {
+    position: relative;
+}
+
+nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3498db;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+nav .dropdown:hover .dropdown-content {
+    display: block;
 }
 
 .dropdown-content a {
@@ -80,15 +102,369 @@ footer {
     font-size: 16px;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;}
-
-img {
-    width: 15vw;
-    
+header {
+    text-align: center;
 }
-p{
+
+h1 {
+    color: aliceblue;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+h3 {
+
+    font-size: 17px;
+    margin-left: 10px
+}
+
+p {
     font-size: 16px;
     color: #ECD98D;
     margin-left: 10px;
+}
+
+img {
+    float: right;
+    width: 300px;
+    margin-right: 130px;
+}
+
+/* homepage */
+.blur-container {
+    background: url('') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(248, 225, 225);
+    text-align: center;
+    position: relative;
+
+}
+
+.homepage {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2D2A41;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    max-height: 100vh;
+    width: 100vw;
+    background-image: url(./img/tuf\ gaming.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.blur {
+    width: 100vw;
+    height: 15vh;
+    position: center;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+    position: relative;
+    bottom: 26rem;
+}
+
+.content {
+    z-index: 1;
+}
+
+/* goededoel */
+.tekst {
+    text-align: left;
+}
+
+.longfonds {
+    height: 350px;
+    width: 550px;
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.titel-longfonds {
+    font-size: 25px;
+}
+
+.alle-tekst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.image1 {
+    margin-top: -25vh;
+}
+
+/* Cv shafirio */
+.section2 h2{
+    font-size: 30px;
+}
+.section2 h3{
+    font-size: 25px;
+}
+.section2 p{
+    font-size: 20px;
+}
+.section1 {
+    background-color:#4e4b56;
+    width: 30vw;
+    left: 30rem;
+    height: 21rem;
+    position: relative;
+    margin-top: 5rem;
+}
+span{
+    color: #ECD98D;
+    font-size: 20px;
+}
+.section1 h2{
+    font-size: 30px;
+}
+.section1 h3{
+    font-size: 25px;
+}
+.section2 {
+    background-color:#4e4b56;
+    width: 40vw;
+    left: 10rem;
+    height: 33rem;
+    position: relative;
+    margin-top: 2rem;
+}
+
+.wvi12 {
+    text-decoration: none;
+    color: #ededed;
+}
+
+.wvi4 {
+    display: inline-block;
+    padding: 16px 40px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 77.5rem;
+}
+
+.wvi4:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wvi3 {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    bottom: 4.6rem;
+    left: 65rem;
+}
+
+.wvi3:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wvi5 {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    bottom: 2rem;
+    left: 76rem;
+}
+
+.wvi5:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wvi6 {
+    display: inline-block;
+    padding: 16px 40px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    bottom: 2rem;
+    left: 70rem;
+}
+
+.wvi6:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CV Ilias */
+.wvi1 {
+    text-decoration: none;
+    color: #705f19;
+}
+
+.sectionicv {
+    background-color: #4e4b56;
+    width: 330px;
+    position: relative;
+    left: 61.5rem;
+    top: 3rem;
+}
+
+.wvi11 {
+    text-decoration: none;
+    color: #705f19;
+
+}
+
+.wvi2 {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 65rem;
+}
+
+.wvi2:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wvi1 {
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 65rem;
+}
+
+.wvi1:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wvi21 {
+    display: inline-block;
+    padding: 16px 19px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    bottom: 30rem;
+    left: 49rem;
+}
+
+
+.wvi21:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wvi22 {
+    display: inline-block;
+    padding: 15px 10px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 48rem;
+}
+
+
+.wvi22:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pasfotoi1 {
+    position: relative;
+    left: 60rem;
+    bottom: 15rem;
+}
+
+.link-tekst {
+    color: white;
+}
+
+@media screen {}
+
+.gone{
+    display: none;
+    border-radius: 10px;
+}
+
+.infocon{
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divplaceh{
+    height: 30vh;
+    width: 20vw;
+    background-color: #ECD98D;
+    border: #ffffff solid 2px;
+    border-radius: 10px;
+    display: none;
 }
