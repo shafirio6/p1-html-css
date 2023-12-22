@@ -208,34 +208,31 @@ img {
 }
 
 /* Cv shafirio */
-
-
-
-/* class section2 */
-.section2 h2 {
+.div1{
+    left: 75rem;
+    position: relative;
+    bottom: 20rem;
+}
+.section2 h2{
     font-size: 30px;
 }
-
-.section2 h3 {
+.section2 h3{
     font-size: 25px;
 }
-
-.section2 p {
+.section2 p{
     font-size: 20px;
 }
-
-.section2 img {
-    width: 300px;
-    height: 330px;
-}
-
 .section2 {
-    background-color: #4e4b56;
+    background-color:#4e4b56;
     width: 40vw;
     left: 10rem;
     height: 33rem;
     position: relative;
     margin-top: 2rem;
+}
+.section2 img {
+    width: 300px;
+    height: 330px;
 }
 span {
     color: #ECD98D;
@@ -245,8 +242,25 @@ span {
     text-decoration: none;
     color: #ededed;
 }
+.wvi3 {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 
- .wvi4 { 
+}
+
+.wvi3:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wvi4 {
     display: inline-block;
     padding: 16px 40px;
     background-color: #000000;
@@ -263,45 +277,6 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-.wvi3 {
-    display: inline-block;
-    padding: 15px 20px;
-    background-color: #000000;
-    color: #ab5252;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.wvi3:hover {
-    background-image: url(./img/design4.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
-
-.wvi6 {
-    display: inline-block;
-    padding: 16px 40px;
-    background-color: #000000;
-    color: #ab5252;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.wvi6:hover {
-    background-image: url(./img/design4.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 /* CV Ilias */
 .wvi1 {
     text-decoration: none;
@@ -309,7 +284,7 @@ span {
 }
 
 .sectionicv {
-    background-color: #4e4b56;
+    background-color: #666274;
     width: 330px;
     position: relative;
     left: 61.5rem;
@@ -361,6 +336,25 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.wvi10 {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #000000;
+    color: #ab5252;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 65rem;
+}
+
+.wvi10:hover {
+    background-image: url(./img/design4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .wvi21 {
     display: inline-block;
@@ -407,8 +401,8 @@ span {
 
 .pasfotoi1 {
     position: relative;
-    left: 60rem;
-    bottom: 15rem;
+    left: 12rem;
+    bottom: rem;
 }
 
 .link-tekst {
@@ -417,19 +411,20 @@ span {
 
 @media screen {}
 
-.gone {
+.gone{
     display: none;
     border-radius: 10px;
 }
 
-.infocon {
+.infocon{
     height: 70vh;
     width: 100vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-.divplaceh {
+
+.divplaceh{
     height: 30vh;
     width: 20vw;
     background-color: #ECD98D;
@@ -437,8 +432,52 @@ span {
     border-radius: 10px;
     display: none;
 }
-.div1{
-    left: 75rem;
-    position: relative;
-    bottom: 20rem;
+
+
+.sec22{
+    height: 0;
+ 
+   position: relative;
+   bottom: 30rem;background-color: #4b738e;
+   right: 30rem;
+   
+}
+.sec21{
+    height: 0;
+ 
+   position: relative;
+   bottom: 17rem;background-color: #4b738e;
+   right: 30rem;
+   
+}
+.sec20{
+    height: 0;
+ 
+   position: relative;
+
+   background-color: #4b738e;
+ 
+   
+}
+.sec19{
+    height: 0;
+ 
+   position: relative;
+   bottom: 20rem;
+   right: 30rem;
+
+   background-color: #4b738e;
+ 
+   
+}
+.sec18{
+    height: 0;
+ 
+   position: relative;
+   bottom: 16rem;
+   right: 30rem;
+
+   background-color: #4b738e;
+ 
+   
 }
